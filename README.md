@@ -3,6 +3,6 @@ deauth & auth attack
 
 ## usage
 ```
-$ sudo python3 main.py <interface_name> <ssid-list-file>
-ex) sudo python3 main.py wlan0 ssid_list.txt
+$ sudo python3 deauth-attack.py <interface> <ap mac> [<station mac> [-auth]]
+ex) sudo python3 deauth-attack.py wlan0 00:11:22:33:44:55 66:77:88:99:AA:BB
 ```
